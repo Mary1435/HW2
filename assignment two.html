@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>HW1_E161ZMWU3M</title>
+    <style>
+        body{
+            background-color:auto;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("BABYGIRL.jpg");
+        }
+        p{
+            color: cornflowerblue;
+            font-size:42px ;
+        }
+
+        button{
+            color: darkgoldenrod;
+            font-size: 34px;
+        }
+    </style>
+    </head>
+    <body>
+        <h6>My Javascript DOM Manipulation</h6>
+        <p id="demo"></p>
+        <button onclick="getDate()">Click Now</button>
+        </div>
+        </div>
+        <script>
+            function getDate(){
+                var d= new Date();
+               document.getElementById("demo").innerHTML=d;
+            }
+        </script>
+    </body>
+</html>
